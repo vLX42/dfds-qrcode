@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 import { QRCode } from 'react-qrcode-logo';
 
 const Home: NextPage = () => {
-  const [url, setUrl] = useState('')
+  const [url, setUrl] = useState('https://www.dfds.com')
   return (
     <div className={styles.container}>
       <Head>
